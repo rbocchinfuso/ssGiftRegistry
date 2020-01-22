@@ -1,0 +1,10 @@
+[local]
+peeps = peeps.test
+user_sheet_map = user_sheet_map.example
+period = Q4 2019
+
+[smartsheet]
+token = EnterYourTokenHere
+template_sheet_id = TemplateSheetID
+folder_id = FolderID
+
