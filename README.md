@@ -1,7 +1,7 @@
 # Smartsheet Clone
 
 ## Summary
-Dirtly littl Python script to clone Smartsheets from a template using the Smartsheet API.
+Gift registry automation using the Smartsheet API.
 
 _Note: If you have any questions or comments you can always DM me on the twitter @rbocchinfuso._
 

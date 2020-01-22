@@ -34,7 +34,7 @@ for line in fh:
           smartsheet.models.Recipient({'email': email})
         ],
         'subject': name + ' Gift Registry Reminder',
-        'message': 'Hello, ' + name + ', this is a reminder to complete your ' + config['local']['period'] + ' gift registry.\n\n' + name + ', if you have not completed your ' + config['local']['period'] + ' gift registry, please do so by clicking the following URL:\n' + url + '\n\nMy apoogies ' + name + ', if you have already completed your ' + config['local']['period'] + ' gift registry, the logic to only pester those who have not completed their regitsty is not yet complete.\n\nPlease log any issues in the git repo () or email me at richard.bocchinfuso@computacenter.com.\n\nThanks\n-Rich',
+        'message': 'Hello, ' + name + ', this is a reminder to complete your ' + config['local']['period'] + ' gift registry.\n\n' + name + ', if you have not completed your ' + config['local']['period'] + ' gift registry, please do so by clicking the following URL:\n' + url + '\n\nMy apoogies ' + name + ', if you have already completed your ' + config['local']['period'] + ' gift registry, the logic to only pester those who have not completed their regitsty is not yet complete.\n\nPlease log any issues in the git repo (https://github.com/rbocchinfuso/ssGiftRegistry/issues) or email me at richard.bocchinfuso@computacenter.com.\n\nThanks\n-Rich',
         'cc_me': False,
         'format': 'PDF',
         'format_details': smartsheet.models.FormatDetails({
