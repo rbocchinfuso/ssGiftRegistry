@@ -21,7 +21,9 @@ The approach I taken with this project which I hacked in 2016 while at OSCON wil
 git clone https://github.com/rbocchinfuso/ssGiftRegistry.git
 ```
 - Note:  If you don't have Git installed you can also just grab the zip: https://github.com/rbocchinfuso/ssGiftRegistry/archive/master.zip
-- Create config.ini 
+
+- Create config.ini, peeps.txt and user_sheet_map.csv files
+
 - Clone Smartsheet from template
 ```
 python ssClone.py
