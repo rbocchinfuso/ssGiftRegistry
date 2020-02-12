@@ -1,15 +1,27 @@
-# Smartsheet Clone
+# Smartsheet Gift Registry
 
 ## Summary
 Gift registry automation using the Smartsheet API.
 
 _Note: If you have any questions or comments you can always DM me on the twitter @rbocchinfuso._
 
-#### The Idea
+#### Why
 Exhausted by spreadsheets, email and humans doing highly repetitive and easily automated work for which the computer was invented.
 
-#### Looking Ahead
-The approach I taken with this project which I hacked in 2016 while at OSCON will become the basis for other sentiment analysis projects.  For example, mining ServiceNow Incident and Request notes via the SNOW API and determine sentiment by incident/request, agent, company, engagement channel (phone, email, service portal), CI, etc...  Of course these projects will be written in Python.
+#### How
+- Uses smartsheet api to clond individual gift registries from a gift registry gold copy
+- Uses _peeps.txt (peeps.example)_ to create individual gift registries
+- Uses _user_sheet_map.csv (user_sheet_map.example)_ to map user sheets to sheet ids and urls
+
+#### What
+- Clones gift registry smartsheet from gold copy
+- Shares gift registry smartsheet with appropriate person
+- Sends emails to users with link to gift registry sheet to update gift registry sheets
+- Sends reminders _(via cron job)_ to users with link to update gift registry 
+
+#### Todo
+- Check to see if the sheet has been updated by the user and use exeception based reminders
+
 
 ## Requirements
 - Smartsheet Python SDK: https://github.com/smartsheet-platform/smartsheet-python-sdk
