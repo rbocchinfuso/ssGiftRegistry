@@ -9,7 +9,7 @@ _Note: If you have any questions or comments you can always DM me on the twitter
 Exhausted by spreadsheets, email and humans doing highly repetitive and easily automated work for which the computer was invented.
 
 #### How
-- Uses smartsheet api to clond individual gift registries from a gift registry gold copy
+- Uses smartsheet api to clone individual gift registries from a gift registry gold copy
 - Uses _peeps.txt (peeps.example)_ to create individual gift registries
 - Uses _user_sheet_map.csv (user_sheet_map.example)_ to map user sheets to sheet ids and urls
 
