@@ -1,3 +1,5 @@
+commit.sh
 *.ini
 *.txt
 *.csv
+*.bak*
